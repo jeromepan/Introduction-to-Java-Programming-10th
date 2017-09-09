@@ -1,4 +1,6 @@
-package Chapter_9;
+package Chapter_9.Circle;
+
+import Chapter_9.Circle.SimpleCircle;
 
 /**
  * Created by lmsj0 on 9/10/2017.
