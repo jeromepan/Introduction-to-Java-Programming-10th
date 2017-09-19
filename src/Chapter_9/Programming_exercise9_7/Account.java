@@ -10,25 +10,20 @@ public class Account {
     private int id = 0;
     private double balance = 0;
     private double annualInterestRate = 0;
-    private java.util.Date dateCreated;
+    private Date dateCreated;
 
 
 
     Account(){
 
-       dateCreated = new java.util.Date();
-       this.id = id;
-        this.annualInterestRate = annualInterestRate;
-       this.balance = balance;
+       Date dateCreated = new Date();
+
+
     }
     Account(int id, double balance){
         this.id = id;
         this.balance = balance;
 
-    }
-
-    public java.util.Date getDatecreated(){
-        return dateCreated;
     }
 
     public int getId(){
@@ -75,6 +70,11 @@ public class Account {
 
     public Date getDateCreated(){
         return dateCreated;
+
+    }
+
+    public void setDateCreated(Date dateCreated){
+        this.dateCreated = dateCreated;
 
     }
 
